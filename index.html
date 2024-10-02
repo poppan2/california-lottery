@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>California Lottery</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="ads-slider">
+    <div class="slides">
+        <div class="slide">
+            <img id="ad-image1" src="" alt="Image 1">
+        </div>
+        <div class="slide">
+            <img id="ad-image2" src="" alt="Image 2">
+        </div>
+        <div class="slide">
+            <img id="ad-image3" src="" alt="Image 3">
+        </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="sub-header1">
+        <h1 class="sub-header1-items"> California Lottery</h1>
+        <p class="sub-header1-items">Next Draw</p>
+        <p class="sub-header1-items" id="draw-date"></p>
+    </div>
+    <div class="sub-header2">
+        <h3>Draw Date</h3>
+        <div class="date-box" id="dateBox">
+            <span>Wed, 04 Sep 2024</span>
+            <span>&#9660;</span> <!-- Down arrow -->
+        </div>
+        <ul class="dropdown" id="dropdownMenu">
+            <li class="dropdown-item">Thu, 05 Sep 2024</li>
+            <li class="dropdown-item">Fri, 06 Sep 2024</li>
+            <li class="dropdown-item">Sat, 07 Sep 2024</li>
+            <li class="dropdown-item">Sun, 08 Sep 2024</li>
+            <li class="dropdown-item">Sun, 08 Sep 2024</li>
+            <li class="dropdown-item">Sun, 08 Sep 2024</li>
+            <li class="dropdown-item">Sun, 08 Sep 2024</li>
+            <li class="dropdown-item">Sun, 08 Sep 2024</li>
+            <li class="dropdown-item">Sun, 08 Sep 2024</li>
+            <li class="dropdown-item">Sun, 08 Sep 2024</li>
+        </ul>
+    </div>
+    
+  </header>
+  <div class="container">
+
+    <div class="date-draw-no">
+        <div class="date">
+            <p class="white-text">Wed, 04 Sep 2024</p>
+        </div>
+        <div class="draw-no">
+            <p class="white-text">Draw No. 1070</p>
+        </div>
+    </div>
+
+    <div class="prizes">
+        <div class="first-prize">
+            <p class="white-text">1st Prize @ $5,000,000</p>
+        </div>
+        <div class="second-prize">
+            <p class="white-text">2nd Prize @ $500,000</p>
+        </div>
+        <div class="third-prize">
+            <p class="white-text">3rd Prize @ $250,000</p>
+        </div>
+    </div>
+
+    <div class="prizes-no">
+        <div class="first-no">
+            <p class="black-text" id="first-prize"></p>
+        </div>
+        <div class="second-no">
+            <p class="black-text" id="second-prize"></p>
+        </div>
+        <div class="third-no">
+            <p class="black-text" id="third-prize"></p>
+        </div>
+    </div>
+
+
+    <div class="jackpot-prizes">
+        <div class="jackpot-prize">
+            <p class="white-text">10 Jackpot Prizes @ $10,000 each</p>
+        </div>
+    </div>
+
+    <div class="jackpot-prizes-no">
+        <div class="jp-first-no">
+            <p class="black-text" id="jp-first-prize"></p>
+        </div>
+        <div class="jp-second-no">
+            <p class="black-text" id="jp-second-prize"></p>
+        </div>
+        <div class="jp-third-no">
+            <p class="black-text" id="jp-third-prize"></p>
+        </div>
+        <div class="jp-fourth-no">
+            <p class="black-text" id="jp-fourth-prize"></p>
+        </div>
+        <div class="jp-fifth-no">
+            <p class="black-text" id="jp-fifth-prize"></p>
+        </div>
+    </div>
+
+    <div class="jackpot-prizes-no2">
+        <div class="jp-first-no2">
+            <p class="black-text" id="jp-sixth-prize"></p>
+        </div>
+        <div class="jp-second-no2">
+            <p class="black-text" id="jp-seventh-prize"></p>
+        </div>
+        <div class="jp-third-no2">
+            <p class="black-text" id="jp-eighth-prize"></p>
+        </div>
+        <div class="jp-fourth-no2">
+            <p class="black-text" id="jp-nineth-prize"></p>
+        </div>
+        <div class="jp-fifth-no2">
+            <p class="black-text" id="jp-tenth-prize"></p>
+        </div>
+    </div>
+
+    <div class="lucky-prizes">
+        <div class="lucky-prize">
+            <p class="white-text">10 Lucky Prizes @ $5,000 each</p>
+        </div>
+    </div>
+
+    <div class="lucky-prizes-no">
+        <div class="ly-first-no">
+            <p class="black-text" id="ly-first-prize"></p>
+        </div>
+        <div class="ly-second-no">
+            <p class="black-text" id="ly-second-prize"></p>
+        </div>
+        <div class="ly-third-no">
+            <p class="black-text" id="ly-third-prize"></p>
+        </div>
+        <div class="ly-fourth-no">
+            <p class="black-text" id="ly-fourth-prize"></p>
+        </div>
+        <div class="ly-fifth-no">
+            <p class="black-text" id="ly-fifth-prize"></p>
+        </div>
+    </div>
+
+    <div class="lucky-prizes-no2">
+        <div class="ly-first-no2">
+            <p class="black-text" id="ly-sixth-prize"></p>
+        </div>
+        <div class="ly-second-no2">
+            <p class="black-text" id="ly-seventh-prize"></p>
+        </div>
+        <div class="ly-third-no2">
+            <p class="black-text" id="ly-eighth-prize"></p>
+        </div>
+        <div class="ly-fourth-no2">
+            <p class="black-text" id="ly-nineth-prize"></p>
+        </div>
+        <div class="ly-fifth-no2">
+            <p class="black-text" id="ly-tenth-prize"></p>
+        </div>
+    </div>
+
+    <div class="gift-prizes">
+        <div class="gift-prize">
+            <p class="white-text">30 Gift Prizes @ $3,000 each <span class="dropdown-arrow">&#9660;</span></p>
+        </div>
+    </div>
+
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+body{
+    background-color: white;
+    text-align: center;
+    background-image: url('https://wallpapercave.com/wp/wp4190743.jpg');
+}
+
+.white-text{
+    color: white;
+}
+
+.black-text{
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-header1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    gap: 40px;
+}
+
+.sub-header1-items{
+    align-self: center;
+}
+
+.date-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 300px; /* Adjust width as needed */
+    background-color: #f9f9f9;
+    margin: 20px auto; /* Center the box */
+}
+
+.dropdown {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px; /* Match width with the date box */
+    z-index: 1;
+    margin-top: 5px; /* Space between box and dropdown */
+    max-height: 300px; /* Set max height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+
+.date-draw-no{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    width: 60%;
+    text-align: center;
+    margin: 5px;
+}
+
+.date, .draw-no{
+    background-color: blue;
+    display: inline-block;
+    width: 45%;
+}
+
+.prizes{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    width: 60%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.first-prize, .second-prize, .third-prize{
+    background-color: gray;
+    display: inline-block;
+    width: 30%;
+}
+
+.prizes-no{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2px;
+    width: 60%;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.first-no, .second-no, .third-no{
+    background-color: #F4F4F4;
+    display: inline-block;
+    width: 30%;
+}
+
+.jackpot-prizes-no, .jackpot-prizes-no2, .lucky-prizes-no, .lucky-prizes-no2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+    width: 60%;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.jackpot-prizes, .lucky-prizes, .gift-prizes{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.jackpot-prize, .lucky-prize, .gift-prize{
+    background-color: gray;
+    display: inline-block;
+    width: 90.4%;
+}
+
+.jp-first-no, .jp-second-no, .jp-third-no, .jp-fourth-no, .jp-fifth-no, .ly-first-no, .ly-second-no, .ly-third-no, .ly-fourth-no, .ly-fifth-no{
+    background-color: #F4F4F4;
+    display: inline-block;
+    width: 18%;
+}
+
+.jp-first-no2, .jp-second-no2, .jp-third-no2, .jp-fourth-no2, .jp-fifth-no2, .ly-first-no2, .ly-second-no2, .ly-third-no2, .ly-fourth-no2, .ly-fifth-no2{
+    background-color: #F4F4F4;
+    display: inline-block;
+    width: 18%;
+}
+
+.dropdown-arrow {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.ads-slider {
+    width: 60%;
+    height: 150px;    /* Set the height of the slider */
+    overflow: hidden; /* Hide overflowing images */
+    position: relative;
+    margin: 0 auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual slide */
+.slide {
+    width: 100%;
+    flex: 1 0 100%; /* Ensure each slide takes up 100% of the container */
+}
+
+/* Style the images */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the slide area */
+}
+
+.agent-form{
+    width: 500px;
+    height: 300px;
+    background-color: green;
+}
+
